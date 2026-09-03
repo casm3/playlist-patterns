@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 import argparse
 import json
 import os
@@ -55,7 +55,7 @@ def read_reports(reports_dir):
 def evaluate(spec, results, checkstyle_ok, build_ok):
     rows = []
     total = 0.0
-    for requirement in spec["exercicios"]:
+    for requirement in spec["requisitos"]:
         weight = float(requirement["peso"])
 
         if requirement.get("tipo") == "lint":
@@ -121,7 +121,7 @@ def render(spec, rows, total, tampered):
             "",
         ]
 
-    lines += ["| | Exercício | Resultado | Peso | Nota |", "|---|---|---|---|---|"]
+    lines += ["| | Requisito | Resultado | Peso | Nota |", "|---|---|---|---|---|"]
     for row in rows:
         lines.append(
             f"| {status_icon(row['ratio'])} | {row['id']}. {row['titulo']} "
@@ -141,7 +141,7 @@ def render(spec, rows, total, tampered):
         for row, (name, _, detail) in failures:
             if row["id"] != current:
                 current = row["id"]
-                lines.append(f"**Exercício {row['id']} — {row['titulo']}**")
+                lines.append(f"**Requisito {row['id']} — {row['titulo']}**")
                 lines.append("")
             lines.append(f"- `{name}`" + (f" — {detail}" if detail else ""))
         lines += ["", "</details>", ""]
