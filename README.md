@@ -30,19 +30,28 @@ Todas as soluções serão validadas por **testes automatizados executados por m
 
 ## Como entregar
 
-1. Crie uma branch a partir da `main`:
+1. Faça um **fork** deste repositório para a sua conta do GitHub.
+2. Clone o seu fork:
    ```bash
-   git checkout -b entrega-seu-nome
+   git clone URL_DO_SEU_FORK
+   cd playlist-patterns
    ```
-2. Implemente os exercícios. Commite quantas vezes quiser.
-3. Suba a _branch_ e abra um **pull request** para a `main` deste repositório:
+3. Crie uma branch a partir da `main`:
    ```bash
-   git push origin entrega-seu-nome
-   ```
-4. O avaliador roda sozinho e comenta a sua nota no pull request. **Cada novo
-   push atualiza o mesmo comentário**.
-5. Você pode corrigir e enviar de novo quantas vezes quiser antes do prazo.
-
+    git checkout -b entrega-seu-nome
+    ```
+4. Implemente os exercícios. Você pode fazer quantos commits quiser:
+    ```bash
+    git add .
+    git commit -m "Implementa Composite"
+    ```
+5. Suba a sua branch para o seu fork:
+    ```bash
+    git push -u origin entrega-seu-nome
+    ```
+6. Abra um Pull Request do seu fork para a `main` deste repositório.
+7. O avaliador roda automaticamente e publica a nota no Pull Request.
+8. Envie quantas vezes quiser, mas antes de fazê-lo garanta que sua solução passa localmente.
 ---
 
 ## Rodando localmente
