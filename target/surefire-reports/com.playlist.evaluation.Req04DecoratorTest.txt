@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.playlist.evaluation.Req04DecoratorTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 7, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in com.playlist.evaluation.Req04DecoratorTest
+com.playlist.evaluation.Req04DecoratorTest.chainPreservesTitle -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.chainPreservesTitle(Req04DecoratorTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.decoratorOrderMatters -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.decoratorOrderMatters(Req04DecoratorTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.noiseGateSilencesQuietSamples -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.NoiseGateEffect.<init>(NoiseGateEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.noiseGateSilencesQuietSamples(Req04DecoratorTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.chainDescriptionFollowsApplicationOrder -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.chainDescriptionFollowsApplicationOrder(Req04DecoratorTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.effectsDoNotMutateTheSource -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.effectsDoNotMutateTheSource(Req04DecoratorTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.rejectsNullInnerTrack -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.playlist.evaluation.Req04DecoratorTest.rejectsNullInnerTrack(Req04DecoratorTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.lambda$rejectsNullInnerTrack$0(Req04DecoratorTest.java:103)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.playlist.evaluation.Req04DecoratorTest.volumeEffectAmplifiesAndClamps -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.VolumeEffect.<init>(VolumeEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.volumeEffectAmplifiesAndClamps(Req04DecoratorTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.playlist.evaluation.Req04DecoratorTest.fadeInEffectAppliesLinearRamp -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Exercício 4: implemente o construtor de AudioEffect
+	at com.playlist.decorator.AudioEffect.<init>(AudioEffect.java:20)
+	at com.playlist.decorator.FadeInEffect.<init>(FadeInEffect.java:15)
+	at com.playlist.evaluation.Req04DecoratorTest.fadeInEffectAppliesLinearRamp(Req04DecoratorTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
