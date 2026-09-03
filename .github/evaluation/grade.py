@@ -106,7 +106,7 @@ def render(spec, rows, total, tampered):
     minimum = float(spec.get("notaMinima", 0))
     verdict = "APROVADO" if total >= minimum else "REPROVADO"
     lines = [
-        "<!-- avaliador-sonora -->",
+        "<!-- avaliador-playlist -->",
         f"## 🎧 Avaliação automática — {spec['projeto']}",
         "",
         f"### Nota: **{total:.1f} / 100**  ({verdict}, mínimo {minimum:.0f})",
