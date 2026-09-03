@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.14.2">
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/proxy/AudioStream.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/proxy/ProtectedAudioStreamProxy.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/proxy/RemoteAudioStream.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/FadeInEffect.java">
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/NoiseGateEffect.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/RawAudioTrack.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/AudioEffect.java">
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/VolumeEffect.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/decorator/AudioTrack.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/facade/PlaylistFacade.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/adapter/external/LegacyVinylCatalog.java">
+<error line="14" severity="warning" message="A linha vazia deveria ser seguida por uma tag &lt;p&gt; na linha seguinte." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="16" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 113)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" severity="warning" message="A linha vazia deveria ser seguida por uma tag &lt;p&gt; na linha seguinte." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/composite/MediaItem.java">
+<error line="13" column="3" severity="warning" message="&apos;METHOD_DEF&apos; deve ser separado da linha anterior." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="14" column="3" severity="warning" message="&apos;METHOD_DEF&apos; deve ser separado da linha anterior." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="15" column="3" severity="warning" message="&apos;METHOD_DEF&apos; deve ser separado da linha anterior." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="/Users/carlos/Documents/upe/disciplinas/playlist-patterns/src/main/java/com/playlist/composite/PlaylistNode.java">
+<error line="27" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 137)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>
